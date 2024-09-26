@@ -266,3 +266,9 @@ git clone git@github.com:Pranjal-hk/training-biz-pranjal
 history
 cat commandslist.txt
 ls
+ls
+cd training-biz-pranjal
+touch push_history.sh
+cd
+cd /home/ec2-user/training-biz-pranjal
+cd
