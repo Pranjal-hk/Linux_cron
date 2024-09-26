@@ -272,3 +272,15 @@ touch push_history.sh
 cd
 cd /home/ec2-user/training-biz-pranjal
 cd
+cd /home/ec2-user/training-biz-pranjal
+ls
+cd
+cd-
+cd -
+vi push_history.sh
+crontab -e
+crontab -l
+sudo grep CRON /var/log/cron
+chmod +x ~ training-biz-pranjal/push_history.sh
+chmod +x /home/ec2-user/training-biz-pranjal/push_history.sh
+crontab -l
