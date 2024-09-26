@@ -1,0 +1,268 @@
+su
+ls
+cd ..
+ls
+cd ..
+ls
+man adduser
+cd home/ec2-user/
+pwd
+ls
+mkdir temp
+cd temp
+cd ..
+ls
+clear
+rm -rf temp
+ls
+clear
+exit
+cd ..
+ls
+cd etc
+ls
+cd ssh
+ls
+cd sshd_config
+cd sshd_config.d
+cd ssh.config.d
+cd ssh_config.d
+ls
+cd..
+cd ..
+ls
+cd .
+cd  ..
+ls
+cd ../..
+ls
+cd ~/
+pwd
+sudo cat etc/ssh/sshd_config
+sudo cat /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
+sudo service sshd reload
+sudo service sshd restart
+sudo adduser pranjal
+sudo passwd pranjal
+Pranjal@123 pranjal
+passwd pranjal
+cd ~
+pwd
+su pranjal
+exit
+sudo cat
+ls
+pwd
+sudo cat /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config 
+sudo vi /etc/ssh/sshd_config
+sudo cat /etc/ssh/sshd_config
+sudo service sshd restart
+sh pranjal@13.61.16.100
+exit
+sudo cat /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config\
+sudo vi /etc/ssh/sshd_config
+cls
+clear
+sudo cat /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
+ssh pranjal@13.61.16.100
+cls
+clear
+ssh pranjal@13.61.16.100
+sudo service sshd restart
+sudo vi /etc/ssh/sshd_config
+sudo service sshd restart
+ssh pranjal@13.61.16.100
+exit
+cat/etc/redhat-release
+cat /etc/redhat-release
+df -h
+free -m
+sudo yum update -y
+sudo yum install java-1.8.0-openjdk -y
+sudo yum install wget -y
+wget https://repo.almalinux.org/almalinux/8/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+ls
+sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ls
+sudo yum localinstall [200~
+oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+ -y
+ls
+sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm -y
+sudo /etc/init.d/oracle-xe-21c configure
+lsnrctl status
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+sudo vi ~/.bash_profile
+source ~/.bash_profile
+env | grep ORACLE
+sudo vi $ORACLE_HOME/cv/admin/cvu_config
+sudo /etc/init.d/oracle-xe-21c configure
+sudo service oracle-xe-21c start
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+sudo swapon --show
+free -h
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+[200~sudo swapon --show
+free -h~
+sudo swapon --show
+free -h
+sudo vi /opt/oracle/product/21c/dbhomeXE/dbs/initXE.ora
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+free -h
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+sudo /etc/init.d/oracle-xe-21c configure
+[200~sudo service oracle-xe-21c start~
+sudo service oracle-xe-21c start
+sudo lsnrctl status
+grant IMP_FULL_DATABASE to classicmodels;
+sqlplus sys as sysdba
+ imp classicmodels/classicmodels123 FULL=y File=./classicmodels.dmp
+sqlplus classicmodels
+sqlplus pranjal
+sqlplus classicmodels
+sqlplus sys as sysdba
+sqlplus classicmodels
+sqlspace sys as sysdba
+sqlplus sys as sysdba
+sqlplus classicmodels
+sqlplus sys as sysdba
+sqlplus classicmodels;
+ls
+ imp classicmodels/classicmodels123 FULL=y File=./classicmodels.dmp
+#1727330906
+yum install cronie
+#1727330971
+sudo yum install cronie
+#1727331484
+pwd
+#1727331511
+/var/spool/cron/crontabs
+#1727331542
+sudo cat cron.allow ec2-user
+#1727331565
+cd etc
+#1727331567
+ls
+#1727331594
+history
+#1727331611
+clear
+#1727331677
+sudo cat cron.allow ec2-user
+#1727331905
+sudo systemctl status cron.service
+#1727331932
+**crontab -e**
+#1727331940
+sudo **crontab -e**
+#1727331970
+apt-get install cron
+#1727331979
+sudo apt-get install cron
+#1727332019
+crontab -e ec2-user
+#1727332288
+crontab -e
+#1727332495
+crontab -l
+#1727332882
+export HISTTIMEFORMAT="%F %T "
+#1727332894
+source ~/.bashrc
+#1727332911
+history > commandslist.txt
+#1727332922
+cd commandslist.txt
+#1727332931
+cat commandslist.txt
+#1727332949
+clear
+#1727333314
+cat commandlist.txt
+#1727333321
+sudo cat commandlist.txt
+#1727333325
+history
+#1727333351
+cat commandlist.txt
+#1727333371
+cat commandslist.txt
+#1727333396
+clear
+#1727334848
+sudo ssh-keygen -t rsa -C pranjal.ashish@bizacuity.com -b 4096
+#1727334923
+cd /root/.ssh/id_rsa
+#1727334930
+cd .ssh
+#1727334932
+ls
+#1727334938
+cd id_rsa
+#1727335100
+cat id_rsa
+#1727335106
+sudo cat id_rsa
+#1727335112
+cd
+#1727335134
+sudo cd .ssh
+#1727335138
+cd .ssh
+#1727335143
+ls
+#1727335157
+cat authorized_kyes
+#1727335174
+cat authorized_keys
+#1727335272
+ls -al ~/.ssh
+#1727335344
+sudo cat id_rsa.pub
+#1727335469
+cd id_rsa
+history
+sudo ssh-keygen -t rsa -C pranjal.ashish@bizacuity.com -b 4096
+cd .ssh
+touch keys
+cd keys
+ls
+sudo ssh-keygen -t rsa -C pranjal.ashish@bizacuity.com -b 4096
+cat keys
+sudo cat keys
+vi keys
+mkdir keys_github
+sudo ssh-keygen -t rsa -C pranjal.ashish@bizacuity.com -b 4096
+cd keys_github
+cat keys_github
+sudo cat keys_github
+ssh-keygen -t ed25519 -a 100 -C pranjal.ashish@bizacuity.com
+cd .ssh
+cd
+cd .ssh
+ls
+cat id_ed25519.pub
+cd
+ssh -T git@github.com
+sudo yum update
+sudo yum install git
+git clone git@github.com:Pranjal-hk/training-biz-pranjal
+history
+cat commandslist.txt
+ls
