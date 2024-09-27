@@ -284,3 +284,25 @@ sudo grep CRON /var/log/cron
 chmod +x ~ training-biz-pranjal/push_history.sh
 chmod +x /home/ec2-user/training-biz-pranjal/push_history.sh
 crontab -l
+history
+chmod +x /home/ec2-user/training-biz-pranjal/push_history.sh
+clear
+ls
+history | grep ls
+pscp
+sudo pscp
+ls
+sudo cat Test_Procedure
+ls
+cat Test_Procedure
+ls
+clear
+vi test_procedure.txt
+rm -rf Test_Procedure.txt
+ls
+rm -rf test_procedure.txt
+ls
+touch etl_scripts.txt
+cat etl_scripts.txt
+clear
+stat etl_scripts.txt
