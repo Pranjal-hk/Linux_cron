@@ -1,5 +1,8 @@
 #!/bin/bash
 
+
+source ~/.bashrc
+
 # Change directory to the repo
 cd /home/ec2-user/training-biz-pranjal
 
@@ -7,7 +10,7 @@ cd /home/ec2-user/training-biz-pranjal
 cat  ~/.bash_history > /home/ec2-user/training-biz-pranjal/history.txt
 
 # Sync to ensure all writes are flushed to disk
-sync
+#sync
 
 # Add changes to git
 git add .
