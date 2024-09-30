@@ -369,3 +369,5 @@ exit
 ps -ef
 less
 less etl_scripts.txt
+more etl_scripts.txt
+tail etl_scripts.txt
