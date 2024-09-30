@@ -368,3 +368,4 @@ ssh pranjal@13.60.72.144
 exit
 ps -ef
 less
+less etl_scripts.txt
