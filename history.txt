@@ -371,3 +371,4 @@ less
 less etl_scripts.txt
 more etl_scripts.txt
 tail etl_scripts.txt
+head etl_scripts.txt
