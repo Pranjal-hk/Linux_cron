@@ -363,3 +363,5 @@ history
 clear
 yum install vi
 sudo yum install vi
+ls
+ssh pranjal@13.60.72.144
