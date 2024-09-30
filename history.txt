@@ -362,3 +362,4 @@ crontab -e
 history
 clear
 yum install vi
+sudo yum install vi
