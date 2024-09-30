@@ -374,3 +374,6 @@ tail etl_scripts.txt
 head etl_scripts.txt
 wc etl_scripts.txt
 crontab -l
+grep -c 'truncate' etl_scripts.txt
+cat etl_scripts.txt
+grep -c 'TRUNCATE' etl_scripts.txt
