@@ -306,3 +306,59 @@ touch etl_scripts.txt
 cat etl_scripts.txt
 clear
 stat etl_scripts.txt
+chmod +w etl_scripts.txt
+cat etl_scripts
+cat etl_scripts.txt
+vi etl_scripts.txt
+sed 's/sed/edited_sed/g' etl_scripts.txt
+cat etl_scripts.txt
+sed 's/sed/edited_sed/g' etl_scripts.txt
+du -h
+df -ah
+top
+uname -a
+hostname
+clear
+ls
+touch file1
+zip etl_scripts.txt file1
+touch file2
+zip file1 file2
+ls
+zip archive_name.zip file1 file2
+ls
+clear
+crontab -e
+cat push_history.sh
+sudo cat push_history.sh
+crontab -e
+ls
+cd training-biz-pranjal
+cat push_history.sh
+ls
+vi push_history.sh 
+vi ~/.bashrc
+sudo grep CRON /var/log/cron
+ssh-keygen -t rsa -b 4096 -C pranjal.ashish@bizacuity.com
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+git remote set-url origin git@github.comPranjal-hk/training-biz-pranjal.git
+git remote -v
+ssh -T git@github.com
+git branch --unset-upstream
+git push --set-upstream origin main
+git remote set-url origin git@github.com:Pranjal-hk/training-biz-pranjal.git
+git remote -v
+ssh -T git@github.com
+git branch --unset-upstream
+git push --set-upstream origin main
+ls
+crontab -e
+sudo grep CRON /var/log/cron
+date
+sudo grep CRON /var/log/cron
+crontab -e
+history
+clear
+yum install vi
