@@ -379,3 +379,5 @@ cat etl_scripts.txt
 grep -c 'TRUNCATE' etl_scripts.txt
 ls
 find / -name '.txt'
+ls
+ls -a
