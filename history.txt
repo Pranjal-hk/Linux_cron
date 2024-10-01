@@ -386,3 +386,6 @@ cd
 cd home
 cd ./home
 cd .\home
+lsblk
+sudo mkdir /mnt/mydrive
+sudo mount /dev/sdb1 /mnt/mydrive
