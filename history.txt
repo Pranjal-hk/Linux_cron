@@ -395,3 +395,4 @@ sudo mount /dev /mnt/mydrive
 sudo mount /mnt/mydrive
 echo "Hello World"
 pwd
+bash
