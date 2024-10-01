@@ -381,3 +381,8 @@ ls
 find / -name '.txt'
 ls
 ls -a
+sudo cat .profile
+cd
+cd home
+cd ./home
+cd .\home
