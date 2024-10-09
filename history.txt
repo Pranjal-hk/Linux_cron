@@ -407,3 +407,8 @@ clear
 vi payment.csv
 cat payment.csv
 clear
+vi payment.csv
+cat payment.csv
+clear
+vi payment.csv
+cat payment.csv
