@@ -402,3 +402,8 @@ free -g
 free -m
 man free
 ls
+cat payment.csv
+clear
+vi payment.csv
+cat payment.csv
+clear
