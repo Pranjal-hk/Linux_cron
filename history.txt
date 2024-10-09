@@ -400,3 +400,4 @@ ping 16.16.26.57
 command -v scp
 free -g
 free -m
+man free
