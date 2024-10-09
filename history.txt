@@ -401,3 +401,4 @@ command -v scp
 free -g
 free -m
 man free
+ls
