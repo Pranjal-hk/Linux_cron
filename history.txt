@@ -436,3 +436,4 @@ vi payment.csv
 cat new_payments.txt
 cat payment.csv
 clear
+cat payment.csv
