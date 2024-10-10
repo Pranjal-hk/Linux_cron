@@ -491,3 +491,8 @@ df -ah
 clear
 uname
 uname -a
+uname -r
+uname -n
+uname -m
+uname -o
+uname -a
