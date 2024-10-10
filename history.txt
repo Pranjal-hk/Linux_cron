@@ -485,3 +485,6 @@ vi payment.csv
 clear
 vi payment.csv
 cat payment.csv
+du
+du -h
+df -ah
