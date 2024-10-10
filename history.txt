@@ -466,3 +466,7 @@ cat payment.csv
 clear
 rm payment.csv
 ls
+vi payment.csv
+rm payment.csv.swp
+vi payment.csv
+rm .payment.csv.swp
