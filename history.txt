@@ -470,3 +470,8 @@ vi payment.csv
 rm payment.csv.swp
 vi payment.csv
 rm .payment.csv.swp
+vi payment.csv
+cat payment.csv
+vi payment.csv
+clear
+cat payment.csv
