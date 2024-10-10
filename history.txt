@@ -503,3 +503,7 @@ hostname -I
 sudo hostname pranjal
 hostname
 sudo hostname [200~ip-172-31-25-198.eu-north-1.compute.internal
+yum list
+yum list available
+ls
+yum list installed
