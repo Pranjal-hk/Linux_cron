@@ -488,3 +488,6 @@ cat payment.csv
 du
 du -h
 df -ah
+clear
+uname
+uname -a
