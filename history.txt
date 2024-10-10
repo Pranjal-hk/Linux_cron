@@ -445,3 +445,6 @@ vi payment.csv
 cat payment.csv
 clear
 cat payment.csv
+clear
+cat payment.csv
+vi payment.csv
