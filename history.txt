@@ -484,3 +484,4 @@ cat payment.csv
 vi payment.csv
 clear
 vi payment.csv
+cat payment.csv
