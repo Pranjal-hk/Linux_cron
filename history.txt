@@ -515,3 +515,10 @@ ps -f -u ec2-user | sort -S
 sort -S ps -f -u ec2-user 
 sort --buffer-size ps -f -u ec2-user 
  ps -f -u ec2-user --sort=%MEM 
+man ps
+man ps -f -u ec2-user --sort
+ ps -f -u ec2-user --sort=%MEM 
+ ps -f -u ec2-user --sort%MEM 
+ ps -f -u ec2-user --sort=%MEM 
+cleae
+clear
