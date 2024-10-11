@@ -541,3 +541,5 @@ grep -r .txt /ec2-user/
 grep -r .txt ./
 clear
 man find
+man .profile
+man profile
