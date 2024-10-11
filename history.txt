@@ -507,3 +507,4 @@ yum list
 yum list available
 ls
 yum list installed
+ssh pranjal@13.60.220.156
