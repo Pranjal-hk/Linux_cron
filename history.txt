@@ -529,3 +529,6 @@ ps -u ec2-user -f --sort=-%mem
 ma kill
 man kill
 man less
+man wc
+ls
+wc -c etl_scripts.txt
