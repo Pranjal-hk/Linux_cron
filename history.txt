@@ -526,3 +526,6 @@ ps -u ec2-user -f --sort=-%mem
 ps -ef
 clear
 ps -u ec2-user -f --sort=-%mem
+ma kill
+man kill
+man less
