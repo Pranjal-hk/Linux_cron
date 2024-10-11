@@ -522,3 +522,7 @@ man ps -f -u ec2-user --sort
  ps -f -u ec2-user --sort=%MEM 
 cleae
 clear
+ps -u ec2-user -f --sort=-%mem
+ps -ef
+clear
+ps -u ec2-user -f --sort=-%mem
