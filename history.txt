@@ -508,3 +508,6 @@ yum list available
 ls
 yum list installed
 ssh pranjal@13.60.220.156
+ps -u ec2-user
+ps -uf ec2-user
+ps -f -u ec2-user
