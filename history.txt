@@ -532,3 +532,7 @@ man less
 man wc
 ls
 wc -c etl_scripts.txt
+man crontab
+crontab -l
+crontab -i
+clear
