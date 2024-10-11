@@ -511,3 +511,6 @@ ssh pranjal@13.60.220.156
 ps -u ec2-user
 ps -uf ec2-user
 ps -f -u ec2-user
+ps -f -u ec2-user | sort -S
+sort -S ps -f -u ec2-user 
+sort --buffer-size ps -f -u ec2-user 
