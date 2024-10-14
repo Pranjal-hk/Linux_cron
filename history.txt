@@ -543,3 +543,5 @@ clear
 man find
 man .profile
 man profile
+.profile
+cat .profile
