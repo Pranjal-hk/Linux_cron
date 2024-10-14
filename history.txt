@@ -563,3 +563,10 @@ clear
 ls -s
 ls -S
 lsof +D
+tar ./archived_file find -mtime -365
+tar -./archived_file find -mtime -365
+tar archived_file find -mtime -365
+tar tarfile.tar find -mtime -30
+tar -cf tarfile.tar find -mtime -30
+tar -xf tarfile.tar find -mtime -30
+tar --xf tarfile.tar | find -mtime -30
