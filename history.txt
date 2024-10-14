@@ -562,3 +562,4 @@ ls -S
 clear
 ls -s
 ls -S
+lsof +D
