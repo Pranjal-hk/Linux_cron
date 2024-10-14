@@ -546,3 +546,13 @@ man profile
 .profile
 cat .profile
 find . -mtime -30
+find . -mtime +30
+find . -mtime -30 > ./modified_files
+ls
+cat modified_files
+clear
+file . -mtime -30
+find . -mtime -30
+clear
+find . -mtime -30 > ./modified_files
+ls
