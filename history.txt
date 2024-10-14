@@ -545,3 +545,4 @@ man .profile
 man profile
 .profile
 cat .profile
+find . -mtime -30
