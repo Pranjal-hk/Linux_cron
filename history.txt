@@ -570,3 +570,9 @@ tar tarfile.tar find -mtime -30
 tar -cf tarfile.tar find -mtime -30
 tar -xf tarfile.tar find -mtime -30
 tar --xf tarfile.tar | find -mtime -30
+ls
+clear
+tar -xf tarfile.tar find -mtime -30
+tar -cf tarfile.tar -mtime -30
+tar -cvf tarfile.tar -mtime-30
+tar -cvf tarfile.tar find -mtime-30
