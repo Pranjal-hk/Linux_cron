@@ -600,3 +600,6 @@ ls -a
 sudo ./mailrc
 sudo /.mailrc
 sudo apt install s-nail
+sudo yum  install s-nail
+cat /root/.mailrc
+chmod +r+w+x /root/.mailrc
