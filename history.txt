@@ -584,3 +584,7 @@ ls
 sudo apt install mailutils -y
 dnf install s-nail
 sudo dnf install s-nail
+cat .mailrc
+vi /root/.mailrc
+clera
+clear
