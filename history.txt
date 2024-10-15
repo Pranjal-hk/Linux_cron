@@ -588,3 +588,7 @@ cat .mailrc
 vi /root/.mailrc
 clera
 clear
+vi /root/.mailrc
+clear
+chmod +w /root/.mailrc
+chmod +r+w+x /root/.mailrc
