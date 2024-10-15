@@ -581,3 +581,4 @@ zip zipfile `find -mtime -365`
 clear
 zip zipfile `find -mtime +365` 
 ls
+sudo apt install mailutils -y
