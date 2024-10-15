@@ -592,3 +592,8 @@ vi /root/.mailrc
 clear
 chmod +w /root/.mailrc
 chmod +r+w+x /root/.mailrc
+chown -c /root/.mailrc ec2-user
+sudo chmod +w /root/.mailrc
+cd etc
+ls
+ls -a
