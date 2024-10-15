@@ -603,3 +603,7 @@ sudo apt install s-nail
 sudo yum  install s-nail
 cat /root/.mailrc
 chmod +r+w+x /root/.mailrc
+sudo vi /etc/.mailrc
+sudo cat /etc/.mailrc
+sudo vi /etc/.mailrc
+cat /etc/.mailrc
