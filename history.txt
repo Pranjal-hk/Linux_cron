@@ -631,3 +631,6 @@ ps -u ec2-user P
 clear
 ps -u ec2-user --sort=%cpu
 ps -u ec2-user u  --sort=%cpu
+find ./ -r -type f -name "*.txt"
+find ./ -type f -name "*.txt"
+rm find ./ -type f -name "*.txt"
