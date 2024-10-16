@@ -642,3 +642,7 @@ rm find ./ -type f -name "*.txt" -exec rm -f {} +
 find ./ -type f -name "*.txt" -exec rm -f {} +
 find ./ -type f -name "*.txt"
 find -L ./ -xtype l
+readlink -f `find -L ./ -xtype l`
+find -L ./ -xtype l -exec ls -l {}+
+find /path/to/directory -type l -print -exec readlink -f {} \;
+find ./ type l -print -exec readlink -f {} \
