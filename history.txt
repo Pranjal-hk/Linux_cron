@@ -641,3 +641,4 @@ rm find ./ -type f -name "*.txt"
 rm find ./ -type f -name "*.txt" -exec rm -f {} +
 find ./ -type f -name "*.txt" -exec rm -f {} +
 find ./ -type f -name "*.txt"
+find -L ./ -xtype l
