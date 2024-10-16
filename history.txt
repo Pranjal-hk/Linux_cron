@@ -627,3 +627,7 @@ ps -u ec2-user
 ps -u -S ec2-user
 ps -S -u ec2-user
 ps -u ec2-user S
+ps -u ec2-user P
+clear
+ps -u ec2-user --sort=%cpu
+ps -u ec2-user u  --sort=%cpu
