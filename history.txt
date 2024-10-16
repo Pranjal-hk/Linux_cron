@@ -616,3 +616,7 @@ find ./ -type f -name "*.csv"
 find ./ -type f -name "*.csv" -size -k 500
 find ./ -type f -name "*.csv" -size k 500
 find ./ -type f -name "*.csv" -size 500
+find ./ -type f -name "*.csv" -size 500k
+find ./ -type f -name "*.csv" -size 5k
+find ./ -type f -name "*.csv" +size 500k
+find ./ -type f -name "*.csv" -size +500k
