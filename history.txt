@@ -609,3 +609,6 @@ sudo vi /etc/.mailrc
 cat /etc/.mailrc
 mailx -v -s "Test Email Subject" -r pranjal.ashish@bizacuity.com pranjalashish0002@gmail.com < /root/deneme.txt
 mailx -v -s "Test Email Subject" -r pranjal.ashish@bizacuity.com pranjalashish0002@gmail.com 
+find ./ "*.csv"
+clear
+ls
