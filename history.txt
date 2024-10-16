@@ -637,3 +637,7 @@ rm find ./ -type f -name "*.txt"
 rm -r find ./ -type f -name "*.txt"
 rm --help
 clear
+rm find ./ -type f -name "*.txt"
+rm find ./ -type f -name "*.txt" -exec rm -f {} +
+find ./ -type f -name "*.txt" -exec rm -f {} +
+find ./ -type f -name "*.txt"
