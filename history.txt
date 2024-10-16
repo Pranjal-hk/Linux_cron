@@ -647,3 +647,4 @@ find -L ./ -xtype l -exec ls -l {}+
 find /path/to/directory -type l -print -exec readlink -f {} \;
 find ./ type l -print -exec readlink -f {} \
 find . -maxdepth 1 -type d -exec bash -c "echo -ne '{} '; ls '{}' | wc -l" \; |   awk '$NF>=100'
+pip freeze | xargs pip uninstall -y.
