@@ -612,3 +612,7 @@ mailx -v -s "Test Email Subject" -r pranjal.ashish@bizacuity.com pranjalashish00
 find ./ "*.csv"
 clear
 ls
+find ./ -type f -name "*.csv"
+find ./ -type f -name "*.csv" -size -k 500
+find ./ -type f -name "*.csv" -size k 500
+find ./ -type f -name "*.csv" -size 500
