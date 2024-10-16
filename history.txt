@@ -620,3 +620,10 @@ find ./ -type f -name "*.csv" -size 500k
 find ./ -type f -name "*.csv" -size 5k
 find ./ -type f -name "*.csv" +size 500k
 find ./ -type f -name "*.csv" -size +500k
+find ./ -type f -name "*.csv" -size +5k
+find ./ -type f -name "*.csv" -size +500k
+clear
+ps -u ec2-user
+ps -u -S ec2-user
+ps -S -u ec2-user
+ps -u ec2-user S
