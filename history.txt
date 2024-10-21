@@ -653,3 +653,5 @@ pip freeze | xargs pip uninstall -y.
 clear
 ls -l /path/to/directory/*.csv | awk '$5 > 500000 {count++} END {print count}'
 ls -l ./*.csv | awk '$5 > 500000 {count++} END {print count}'
+yum install mailx
+sudo yum install mailx
