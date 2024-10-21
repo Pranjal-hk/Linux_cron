@@ -655,3 +655,4 @@ ls -l /path/to/directory/*.csv | awk '$5 > 500000 {count++} END {print count}'
 ls -l ./*.csv | awk '$5 > 500000 {count++} END {print count}'
 yum install mailx
 sudo yum install mailx
+sudo vi /etc/dnf/plugins/subscription-manager.conf
