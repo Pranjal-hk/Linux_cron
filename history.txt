@@ -659,3 +659,6 @@ sudo vi /etc/dnf/plugins/subscription-manager.conf
 sudo yum install mailx
 dnf install s-nail
 sudo yum install s-nail
+sudo yum install -y s-nail
+sudo yum install -y sysstat
+sudo chmod 777 /etc/s-nail.rc
